@@ -1,303 +1,359 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Krunoslav Blažičević" />
-    <meta name="keywords" content="portfolio, životopis, kruno, blažičević" />
-    <title>Krunoslav Blazicevic Portfolio</title>
-    <link rel="stylesheet" href="./styles/style.css" />
-    <script
-      src="https://kit.fontawesome.com/8d0dfff8b3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
-  <body>
-    <div id="header">
-      <div class="container">
-        <nav>
-          <img src="./images/logo.png" alt="logo" class="logo" />
-          <ul id="sidemenu">
-            <li><a href="#header">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
-          </ul>
-          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
-        </nav>
-        <div class="header-text">
-          <p>Sales Manager</p>
-          <h1>
-            Hi!<br />I'm <span>Kruno</span>, Let's <br />
-            work together to <br />
-            elevate your brand <br />
-            to the next level.
-          </h1>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="author" content="Krunoslav Blažičević" />
+        <meta
+            name="keywords"
+            content="portfolio, životopis, kruno, blažičević"
+        />
+        <title>Krunoslav Blazicevic Portfolio</title>
+        <link rel="stylesheet" href="./styles/style.css" />
+        <script
+            src="https://kit.fontawesome.com/8d0dfff8b3.js"
+            crossorigin="anonymous"
+        ></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class="container">
+                <nav>
+                    <img src="./images/logo.png" alt="logo" class="logo" />
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                    </ul>
+                    <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+                </nav>
+                <div class="header-text">
+                    <p>Sales Manager</p>
+                    <h1>
+                        Hi!<br />I'm <span>Kruno</span>, Let's <br />
+                        work together to <br />
+                        elevate your brand <br />
+                        to the next level.
+                    </h1>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!---------- About ---------->
-    <div id="about">
-      <div class="container">
-        <div class="row">
-          <div class="about-col-1">
-            <img
-              src="./images/vertikalna.png"
-              alt="vertikalna osobna"
-              class="vertikalna"
-            />
-          </div>
-          <div class="about-col-2">
-            <h1 class="sub-title">About Me</h1>
-            <p>
-              I'm an expert in boosting brand revenue and sales through
-              insightful market analysis and consumer behavior understanding. I
-              create customized and innovative solutions that align with each
-              brand's specific goals and needs. My drive for excellence and
-              ability to think creatively have resulted in successful outcomes
-              and happy clients. Let's work together to elevate your brand to
-              the next level.
-            </p>
+        <!---------- About ---------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img
+                            src="./images/vertikalna.png"
+                            alt="vertikalna osobna"
+                            class="vertikalna"
+                        />
+                    </div>
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1>
+                        <p>
+                            I'm an expert in boosting brand revenue and sales
+                            through insightful market analysis and consumer
+                            behavior understanding. I create customized and
+                            innovative solutions that align with each brand's
+                            specific goals and needs. My drive for excellence
+                            and ability to think creatively have resulted in
+                            successful outcomes and happy clients. Let's work
+                            together to elevate your brand to the next level.
+                        </p>
 
-            <div class="tab-titles">
-              <p class="tab-links active-link" onclick="opentab(`skills`)">
-                Skills
-              </p>
-              <p class="tab-links" onclick="opentab(`experience`)">
-                Experience
-              </p>
-              <p class="tab-links" onclick="opentab(`education`)">Education</p>
+                        <div class="tab-titles">
+                            <p
+                                class="tab-links active-link"
+                                onclick="opentab(`skills`)"
+                            >
+                                Skills
+                            </p>
+                            <p
+                                class="tab-links"
+                                onclick="opentab(`experience`)"
+                            >
+                                Experience
+                            </p>
+                            <p class="tab-links" onclick="opentab(`education`)">
+                                Education
+                            </p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                <li>
+                                    <span>Strategic thinking</span> <br />
+                                    Ability to develop and implement a sales
+                                    strategy that aligns with the company's
+                                    goals.
+                                </li>
+                                <li>
+                                    <span>Communication</span> <br />
+                                    Excellent verbal and written communication
+                                    skills to effectively present ideas and
+                                    negotiate with clients.
+                                </li>
+                                <li>
+                                    <span>Analytical</span> <br />
+                                    Using data to analyze sales performance and
+                                    make informed decisions.
+                                </li>
+                                <li>
+                                    <span>Adaptability</span> <br />
+                                    Ability to quickly adapt to changing market
+                                    conditions and adjust sales strategies
+                                    accordingly.
+                                </li>
+                                <li>
+                                    <span>Networking</span> <br />
+                                    Ability to build and maintain relationships
+                                    with clients, partners, and industry
+                                    contacts.
+                                </li>
+                                <li>
+                                    <span>Continuous learning</span> <br />
+                                    commitment to continuously learning about
+                                    new products, industry trends, and market
+                                    developments.
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience">
+                            <ul>
+                                <li>
+                                    <span>Abc Interijer d.o.o. 2018-2022</span>
+                                    <br />
+                                    Sales Director
+                                </li>
+                                <li>
+                                    <span>Abc Interijer d.o.o. 2012-2018</span>
+                                    <br />
+                                    Showroom and Retail Manager
+                                </li>
+                                <li>
+                                    <span>Abc Interijer d.o.o. 2010-2012</span>
+                                    <br />
+                                    Sales Representative
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                <li>
+                                    <span>2023</span> <br />
+                                    Frontend developer Algebra
+                                </li>
+                                <li>
+                                    <span>2022</span> <br />
+                                    Selling skills consulting&coaching Inga
+                                    Lalić
+                                </li>
+                                <li>
+                                    <span>2018</span> <br />
+                                    Adobe Indesign Elements Digital
+                                </li>
+                                <li>
+                                    <span>2005</span> <br />
+                                    School of Economy Katarina Zrinski
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="tab-contents active-tab" id="skills">
-              <ul>
-                <li>
-                  <span>Strategic thinking</span> <br />
-                  Ability to develop and implement a sales strategy that aligns
-                  with the company's goals.
-                </li>
-                <li>
-                  <span>Communication</span> <br />
-                  Excellent verbal and written communication skills to
-                  effectively present ideas and negotiate with clients.
-                </li>
-                <li>
-                  <span>Analytical</span> <br />
-                  Using data to analyze sales performance and make informed
-                  decisions.
-                </li>
-                <li>
-                  <span>Adaptability</span> <br />
-                  Ability to quickly adapt to changing market conditions and
-                  adjust sales strategies accordingly.
-                </li>
-                <li>
-                  <span>Networking</span> <br />
-                  Ability to build and maintain relationships with clients,
-                  partners, and industry contacts.
-                </li>
-                <li>
-                  <span>Continuous learning</span> <br />
-                  commitment to continuously learning about new products,
-                  industry trends, and market developments.
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="experience">
-              <ul>
-                <li>
-                  <span>Abc Interijer d.o.o. 2018-2022</span> <br />
-                  Sales Director
-                </li>
-                <li>
-                  <span>Abc Interijer d.o.o. 2012-2018</span> <br />
-                  Showroom and Retail Manager
-                </li>
-                <li>
-                  <span>Abc Interijer d.o.o. 2010-2012</span> <br />
-                  Sales Representative
-                </li>
-              </ul>
-            </div>
-            <div class="tab-contents" id="education">
-              <ul>
-                <li>
-                  <span>2023</span> <br />
-                  Frontend developer Algebra
-                </li>
-                <li>
-                  <span>2022</span> <br />
-                  Selling skills consulting&coaching Inga Lalić
-                </li>
-                <li>
-                  <span>2018</span> <br />
-                  Adobe Indesign Elements Digital
-                </li>
-                <li>
-                  <span>2005</span> <br />
-                  School of Economy Katarina Zrinski
-                </li>
-              </ul>
-            </div>
-          </div>
         </div>
-      </div>
-    </div>
-    <!------- services -------->
-    <div id="services">
-      <div class="container">
-        <h1 class="sub-title">My Services</h1>
-        <div class="services-list">
-          <div>
-            <i class="fa-solid fa-bars-progress"></i>
-            <h2>Sales Manager</h2>
-            <p>
-              Customer relationship management: building and maintaining strong
-              relationships with existing and potential clients. Deal
-              negotiation: negotiating deals and resolving conflicts with
-              clients. Sales performance monitoring: monitoring sales
-              performance and using data to identify areas for improvement and
-              adjust strategies accordingly. Reporting: preparing and presenting
-              regular sales reports to senior management to provide visibility
-              on performance and identify areas for improvement.
-            </p>
-            <!-- <a href="#">Learn more</a> -->
-          </div>
-          <div>
-            <i class="fa-bars"></i>
-            <h2>Project Manager</h2>
-            <p>
-              Team management: leading and motivating a project team to ensure
-              tasks are completed on time and to a high standard. Budget
-              management: managing the project budget and ensuring financial
-              resources are allocated effectively. Communication: communicating
-              project progress and updates to stakeholders and team members.
-            </p>
-            <!-- <a href="#">Learn more</a> -->
-          </div>
-          <div>
-            <i class="fa fa-solid fa-arrow-up-right-from-square"></i>
-            <h2>Web Developer</h2>
-            <p>
-              Website design and development: creating and implementing custom
-              website designs, using HTML, CSS, JavaScript, and other web
-              development technologies. Responsive design: creating websites
-              that are optimized for viewing on different devices, including
-              desktop computers, laptops, tablets, and smartphones. Integration
-              with third-party services: integrating websites with third-party
-              services, such as payment gateways and social media platforms.
-            </p>
-            <!-- <a href="#">Learn more</a> -->
-          </div>
+        <!------- services -------->
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-users"></i>
+                        <h2>Sales Manager</h2>
+                        <p>
+                            Customer relationship management: building and
+                            maintaining strong relationships with existing and
+                            potential clients. Deal negotiation: negotiating
+                            deals and resolving conflicts with clients. Sales
+                            performance monitoring: monitoring sales performance
+                            and using data to identify areas for improvement and
+                            adjust strategies accordingly. Reporting: preparing
+                            and presenting regular sales reports to senior
+                            management to provide visibility on performance and
+                            identify areas for improvement.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i class="fa-bars"></i>
+                        <h2>Project Manager</h2>
+                        <p>
+                            Team management: leading and motivating a project
+                            team to ensure tasks are completed on time and to a
+                            high standard. Budget management: managing the
+                            project budget and ensuring financial resources are
+                            allocated effectively. Communication: communicating
+                            project progress and updates to stakeholders and
+                            team members.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                    <div>
+                        <i
+                            class="fa fa-solid fa-arrow-up-right-from-square"
+                        ></i>
+                        <h2>Web Developer</h2>
+                        <p>
+                            Website design and development: creating and
+                            implementing custom website designs, using HTML,
+                            CSS, JavaScript, and other web development
+                            technologies. Responsive design: creating websites
+                            that are optimized for viewing on different devices,
+                            including desktop computers, laptops, tablets, and
+                            smartphones. Integration with third-party services:
+                            integrating websites with third-party services, such
+                            as payment gateways and social media platforms.
+                        </p>
+                        <!-- <a href="#">Learn more</a> -->
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
-    </div>
-    <!---------- portfolio ----------->
+        <!---------- portfolio ----------->
 
-    <div id="portfolio">
-      <div class="container">
-        <h1 class="sub-title">My Work</h1>
-        <div class="work-list">
-          <div class="work">
-            <img src="./images/work1.jpg" alt="" />
-            <div class="layer">
-              <h3>UNDER CONSTRUCTION</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-                sapiente non ad at laborum quibusdam!
-              </p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="./images/work1.jpg" alt="" />
+                        <div class="layer">
+                            <h3>UNDER CONSTRUCTION</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Sunt sapiente non ad at
+                                laborum quibusdam!
+                            </p>
+                            <a href="#"
+                                ><i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work2.jpg" alt="" />
+                        <div class="layer">
+                            <h3>UNDER CONSTRUCTION</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Sunt sapiente non ad at
+                                laborum quibusdam!
+                            </p>
+                            <a href="#"
+                                ><i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="./images/work3.jpg" alt="" />
+                        <div class="layer">
+                            <h3>UNDER CONSTRUCTION</h3>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur,
+                                adipisicing elit. Sunt sapiente non ad at
+                                laborum quibusdam!
+                            </p>
+                            <a href="#"
+                                ><i
+                                    class="fa-solid fa-arrow-up-right-from-square"
+                                ></i
+                            ></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See more</a>
             </div>
-          </div>
-          <div class="work">
-            <img src="./images/work2.jpg" alt="" />
-            <div class="layer">
-              <h3>UNDER CONSTRUCTION</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-                sapiente non ad at laborum quibusdam!
-              </p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
-          <div class="work">
-            <img src="./images/work3.jpg" alt="" />
-            <div class="layer">
-              <h3>UNDER CONSTRUCTION</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sunt
-                sapiente non ad at laborum quibusdam!
-              </p>
-              <a href="#"
-                ><i class="fa-solid fa-arrow-up-right-from-square"></i
-              ></a>
-            </div>
-          </div>
         </div>
-        <a href="#" class="btn">See more</a>
-      </div>
-    </div>
-    <!----------- contact ------------>
-    <div id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="contact-left">
-            <h1 class="sub-title">Contact Me</h1>
-            <p><i class="fa-solid fa-paper-plane"></i> kruno.abc@gmail.com</p>
-            <p><i class="fa-solid fa-square-phone"></i> +385916521800</p>
-            <div class="social-icons">
-              <a href="https://www.facebook.com/krunoslav.blazicevic/"
-                ><i class="fa-brands fa-facebook"></i
-              ></a>
-              <a href="#"><i class="fa-brands fa-instagram"></i></a>
-              <a href="#"><i class="fa-brands fa-linkedin"></i></a>
-              <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <!----------- contact ------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p>
+                            <i class="fa-solid fa-paper-plane"></i>
+                            kruno.abc@gmail.com
+                        </p>
+                        <p>
+                            <i class="fa-solid fa-square-phone"></i>
+                            +385916521800
+                        </p>
+                        <div class="social-icons">
+                            <a
+                                href="https://www.facebook.com/krunoslav.blazicevic/"
+                                ><i class="fa-brands fa-facebook"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-instagram"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-linkedin"></i
+                            ></a>
+                            <a href="#"
+                                ><i class="fa-brands fa-square-twitter"></i
+                            ></a>
+                        </div>
+                        <a
+                            href="/zivotopis/Krunoslav Blazicevic - CV (2023).pdf"
+                            download
+                            class="btn btn2"
+                            >Download CV</a
+                        >
+                    </div>
+                    <div class="contact-right">
+                        <form
+                            action="https://formspree.io/f/xoqbvrew"
+                            method="POST"
+                        >
+                            <input
+                                type="text"
+                                name="Name"
+                                placeholder="Your Name and Surname"
+                                required
+                            />
+                            <input
+                                type="email"
+                                name="email"
+                                placeholder="Your Email"
+                                required
+                            />
+                            <textarea
+                                name="Message"
+                                rows="6"
+                                placeholder="Your Message"
+                            ></textarea>
+                            <button type="submit" class="btn btn2">
+                                Submit
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <a
-              href="/zivotopis/Krunoslav Blazicevic - CV (2023).pdf"
-              download
-              class="btn btn2"
-              >Download CV</a
-            >
-          </div>
-          <div class="contact-right">
-            <form action="https://formspree.io/f/xoqbvrew" method="POST">
-              <input
-                type="text"
-                name="Name"
-                placeholder="Your Name and Surname"
-                required
-              />
-              <input
-                type="email"
-                name="email"
-                placeholder="Your Email"
-                required
-              />
-              <textarea
-                name="Message"
-                rows="6"
-                placeholder="Your Message"
-              ></textarea>
-              <button type="submit" class="btn btn2">Submit</button>
-            </form>
-          </div>
+            <div class="copyright">
+                <p>
+                    Copyright &#169; noKru. Made with
+                    <span class="heart">&hearts;</span>
+                </p>
+            </div>
         </div>
-      </div>
-      <div class="copyright">
-        <p>
-          Copyright &#169; noKru. Made with
-          <span class="heart">&hearts;</span>
-        </p>
-      </div>
-    </div>
 
-    <script src="script.js"></script>
-  </body>
+        <script src="script.js"></script>
+    </body>
 </html>
